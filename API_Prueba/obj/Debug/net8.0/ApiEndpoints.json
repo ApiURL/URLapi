@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "ApiConsumidora.Controllers.LoginController",
+    "Method": "AutenticarSesion",
+    "RelativePath": "api/Login/autenticar-sesion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sesion",
+        "Type": "ApiConsumidora.Models.SesionRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "Authorization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiConsumidora.Controllers.LoginController",
+    "Method": "GetEmpleados",
+    "RelativePath": "api/Login/empleados",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Authorization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiConsumidora.Controllers.LoginController",
+    "Method": "ObtenerToken",
+    "RelativePath": "api/Login/obtener-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "ApiConsumidora.Models.LoginExternoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
